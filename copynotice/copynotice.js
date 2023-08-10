@@ -35,7 +35,7 @@ document.addEventListener("copy", function () {
                     offset: 50,
                     showClose: true,
                     type: "success",
-                    duration: 5000
+                    duration: 3000
                 });
             }
         })
