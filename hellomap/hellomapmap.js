@@ -2,7 +2,7 @@
 //get请求
 $.ajax({
     type: 'get',
-    url: 'https://restapi.amap.com/v3/ip',  // 这里我用的是高德API
+    url: 'http://restapi.amap.com/v3/ip?ip=',  // 这里我用的是高德API
         // 'https://apis.map.qq.com/ws/location/v1/ip',  而此处示例提供的是腾讯API
     data: {
         key: 'c040153de5b058ebefc01ac3baf1db47',	// '你的key'
